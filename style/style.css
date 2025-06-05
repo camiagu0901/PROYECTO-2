@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1, h2 {
+  color: #f27121;
+}
+
+p {
+  color: #555;
+}
+
+.boton {
+  background-color: #f27121;
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 30px;
+  margin-top: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('../img/bgHeader.png') center/no-repeat;
+  text-align: center;
+  padding: 4em 1em 5em;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  align-items: center;
+}
+
+.hero p {
+  margin-top: 0.5em;
+  font-weight: bold;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  padding: 4em 2em;
+  gap: 2em;
+  max-width: 1200px;
+  margin: auto;
+  background: url('../img/img01.png') center/cover no-repeat;
+  flex-direction: row;
+}
+
+.section.reverse {
+  flex-direction: row-reverse;
+  background: url('../img/img02.png') center/cover no-repeat;
+}
+
+.section .text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.section .image {
+  flex: 1;
+  min-width: 280px;
+}
+
+.section2 {
+  background-color: #f8f0ed;
+  background: url('../img/bgDown.png') center/cover no-repeat;
+}
+
+.footer {
+  background-color: #f27121;
+  color: white;
+  padding: 3em 2em 2em;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.footer h4 {
+  margin-bottom: 0.5em;
+}
+
+.footer p {
+  margin: 0.2em 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 0.9em;
+}
