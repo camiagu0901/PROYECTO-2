@@ -104,8 +104,10 @@ section.feature img {
   margin: 0.2em 0;
 }
 
-.footer-bottom {
+.footer-container {
   text-align: center;
-  margin-top: 2em;
-  font-size: 0.9em;
+  border: 4px solid #fd7718;  
+  padding: 20px;
+  border-radius: 10px;
+  background-color:  #f27121;
 }
