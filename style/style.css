@@ -8,87 +8,85 @@
 
 body {
   font-family: "Roboto Slab", serif;
+  background-color: #F4F4F4;
   color: #333;
   line-height: 1.6;
 }
-
-img {
-  width: 100%;
-  height: auto;
-  display: block;
+.imagen_fondo {
+  background: url('../img/bgHeader.png') ;
+  background-size: cover ;
+  padding: 100px 40px;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;  
 }
-
-h1, h2 {
-  color: #f27121;
+h1{
+    color: #ec6f2d;
 }
-
-p {
-  color: #555;
-}
-
-.boton {
-  background-color: #f27121;
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #e86c1a;
   color: white;
   border: none;
-  padding: 0.6em 1.2em;
-  border-radius: 30px;
-  margin-top: 1em;
+  border-radius: 100px;
   cursor: pointer;
-  font-weight: bold;
 }
 
-.hero {
-  background: url('../img/bgHeader.png') center/no-repeat;
-  text-align: center;
-  padding: 4em 1em 5em;
+.button2 {
+  margin-top: 200px;
+  padding: 10px 20px;
+  background: #e86c1a;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
 }
-
-.hero h1 {
-  font-size: 2.5em;
-  align-items: center;
-}
-
-.hero p {
-  margin-top: 0.5em;
-  font-weight: bold;
-}
-
-.section {
+section.feature {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 20px;
   flex-wrap: wrap;
-  align-self: center;
-  padding: 4em 2em;
-  gap: 2em;
-  max-width: 1200px;
-  margin: auto;
-  background: url('../img/img01.png') center/cover no-repeat;
+}
+
+section.feature.reverse {
   flex-direction: row;
 }
 
-.section.reverse {
-  flex-direction: row-reverse;
-  background: url('../img/img02.png') center/cover no-repeat;
-}
-
-.section .text {
+section.feature .text {
   flex: 1;
   min-width: 280px;
+  max-width: 500px;
+  margin: 20px;
 }
 
-.section .image {
-  flex: 1;
-  min-width: 280px;
+section.feature img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
 }
 
-.section2 {
-  background-color: #f8f0ed;
-  background: url('../img/bgDown.png') center/cover no-repeat;
+.imagen_fondo2{
+  background: url('../img/bgDown.png') ;
+  background-size: cover ;
+  padding: 100px 40px;
+  width: 100vw;
+  height: 100vh;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
 }
 
+/* PIE DE PÁGINA */
 .footer {
   background-color: #f27121;
   color: white;
-  padding: 3em 2em 2em;
+  padding: 100px 40px;
 }
 
 .footer-columns {
